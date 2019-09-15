@@ -16,4 +16,11 @@ public class LimitConfigurationController {
         return new LimitConfiguration(configuration.getMaximum(), configuration.getMinmium());
 
     }
+    
+        @GetMapping("/limits2")
+    public String reteriveLimitsFromConfiguration2() {
+
+        return "YARAB";
+
+    }
 }
